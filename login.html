@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>profile</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <!-- Render all Element Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- main css file && Frame Work-->
+    <link rel="stylesheet" href="css/Framwork.css   " />
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;700&family=Open+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header w-100 p-relative">
+
+        <div class="contain">
+            <div class="nav-bar flex-betcenter p-5 ">
+              <div class="flex-betcenter nav">
+                <div class="logo  p-relative"><img src="image/logo.png" alt=""></div>
+                <div class="itm align-center">
+                  <nav class="navbar btn-main"><button class="navbar-toggler btn-item" type="button"><span
+                        class="navbar-toggler-icon"></span></button></nav>
+                </div>
+              </div>
+              <div class="main-item" style="height:0px;">
+                <ul>
+                  <li class="m-5 cl-w curser-pointer"><a href="home.html" class="home">الرئيسية</a></li>
+                  <li class="m-5 cl-w curser-pointer"><a href="service.html" class=service>الخدمات</a></li>
+                  <li class="m-5 cl-w curser-pointer"><a href="login.html" class="profile">الصفحة الشخصية</a></li>
+                  <li class="m-5 cl-w curser-pointer"><a href="worker.html" class="worker">العمال</a></li>
+                  <li class="m-5 cl-w curser-pointer"><a href="contact.html" class="contact">اتصل بنا</a></li>
+                  <li class="m-5 cl-w curser-pointer"><a href="job.html" class="shop">جميع الوظائف</a></li>
+                  <li class="m-5 cl-w curser-pointer"><a href="about.html" class="about"> عن الشركة</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div class="p-relative">
+            <div class="t1 animation-down"></div>
+        </div>
+    </div>
+  
+    <form class= "log"method="post" onsubmit="myaction.collect_data(event, 'login')">
+        <div class="col-md-4 border rounded mx-auto mt-5 p-4 shadow">
+
+            <div class="h2 txt-left">Login</div>
+ 
+            <div><small class="my-1 js-error js-error-email text-danger"></small></div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                <input name="email" type="text" class="form-control p-3" placeholder="Email">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="bi bi-key"></i></span>
+                <input name="password" type="password" class="form-control p-3" placeholder="Password">
+            </div>
+
+            <div class="progress my-3 d-none">
+                <div class="progress-bar" role="progressbar" style="width: 50%;">Working... 25%</div>
+            </div>
+
+            <button class="btn btn-primary col-12 ">Login</button>
+
+            <div class="m-2">
+                Dont have an account? <a href="signup.html">signup here</a>
+            </div>
+        </div>
+    </form>
+
+
+    <!-- footer Componant -->
+
+<footer class="bg-cldark ptb-80">
+    <div class="contain">
+      <div class="d-grid foot">
+        <div class="foot-element">
+          <div class="ser fs-20">
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer fs-20">النجارة</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">النقاشة</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">الحدادة</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">السباكة</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">نطافة منزلية</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">كهرباء</a>
+  
+          </div>
+        </div>
+        <div class="foot-element">
+          <div class="ser fs-20">
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer fs-20">الرئيسية</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">الخدمات</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">اتصل بنا</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">الصفحة الشخصية</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">عن الشركة</a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer">العروض</a>
+  
+          </div>
+        </div>
+        
+        <div class="foot-element txt-right">
+          <div class="logo"><img src="image/logo.png" alt=""></div>
+          <p class="mt-20 cl-white"> مشروع ويب يساعد العملاء في العثور على عمال يقدمون خدمات في مختلف مجالات الحياة بأسعار مناسبة</p>
+          <h4 class="cl-white">تابعنا</h4>
+          <div class="icon-social">
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer"><i class="fab fa-twitter"></i></a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer"><i class="fab fa-instagram"></i></a>
+            <a href="#"class="cl-yellow p-5 bg-cldark curser-pointer"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+      </div>
+  
+    </div>
+  
+  </footer>
+     <!-- bootstrap js -->
+     <script src="assets/bootstrap.bundle.min.js"></script>
+     <!-- js -->
+     <script src="java/script.js"></script>
+
+</body>
+
+</html>
+
+<script>
+
+    var myaction =
+    {
+        collect_data: function (e, data_type) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            var inputs = document.querySelectorAll("form input, form select");
+            let myform = new FormData();
+            myform.append('data_type', data_type);
+
+            for (var i = 0; i < inputs.length; i++) {
+
+                myform.append(inputs[i].name, inputs[i].value);
+            }
+
+            myaction.send_data(myform);
+        },
+
+        send_data: function (form) {
+
+            var ajax = new XMLHttpRequest();
+
+            document.querySelector(".progress").classList.remove("d-none");
+
+            //reset the prog bar
+            document.querySelector(".progress-bar").style.width = "0%";
+            document.querySelector(".progress-bar").innerHTML = "Working... 0%";
+
+            ajax.addEventListener('readystatechange', function () {
+
+                if (ajax.readyState == 4) {
+                    if (ajax.status == 200) {
+                        //all good
+                        myaction.handle_result(ajax.responseText);
+                    } else {
+                        console.log(ajax);
+                        alert("An error occurred");
+                    }
+                }
+            });
+
+            ajax.upload.addEventListener('progress', function (e) {
+
+                let percent = Math.round((e.loaded / e.total) * 100);
+                document.querySelector(".progress-bar").style.width = percent + "%";
+                document.querySelector(".progress-bar").innerHTML = "Working..." + percent + "%";
+            });
+
+            ajax.open('post', 'ajax.php', true);
+            ajax.send(form);
+        },
+
+        handle_result: function (result) {
+            console.log(result);
+            var obj = JSON.parse(result);
+            if (obj.success) {
+                alert("Login successfull!");
+                window.location.href = 'home.php';
+            } else {
+
+                //show errors
+                let error_inputs = document.querySelectorAll(".js-error");
+
+                //empty all errors
+                for (var i = 0; i < error_inputs.length; i++) {
+                    error_inputs[i].innerHTML = "";
+                }
+
+                //display errors
+                for (key in obj.errors) {
+                    document.querySelector(".js-error-" + key).innerHTML = obj.errors[key];
+                }
+            }
+        }
+    };
+
+</script>

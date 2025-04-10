@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title of page -->
+  <title>profile</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <!-- Render all Element Normally -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <!-- main css file && Frame Work-->
+  <link rel="stylesheet" href="css/Framwork.css   " />
+  <link rel="stylesheet" href="css/master.css" />
+  <!-- Font Awesome Library -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;700&family=Open+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- header -->
+  <!-- header Componant -->
+  <!-- <div class="st-header"></div> -->
+  <div class="header w-100 p-relative">
+
+    <div class="contain">
+      <div class="nav-bar flex-betcenter p-5 ">
+        <div class="flex-betcenter nav">
+          <div class="logo  p-relative"><img src="image/logo.png" alt=""></div>
+          <div class="itm align-center">
+
+            <nav class="navbar btn-main"><button class="navbar-toggler btn-item" type="button"><span
+                  class="navbar-toggler-icon"></span></button></nav>
+          </div>
+        </div>
+        <div class="main-item" style="height:0px;">
+          <ul>
+            <li class="m-5 cl-w curser-pointer"><a href="home.html" class="home">الرئيسية</a></li>
+            <li class="m-5 cl-w curser-pointer"><a href="service.html" class=service>الخدمات</a></li>
+            <li class="m-5 cl-w curser-pointer"><a href="login.html" class="profile">الصفحة الشخصية</a></li>
+            <li class="m-5 cl-w curser-pointer"><a href="worker.html" class="worker">العمال</a></li>
+            <li class="m-5 cl-w curser-pointer"><a href="contact.html" class="contact">اتصل بنا</a></li>
+            <li class="m-5 cl-w curser-pointer"><a href="job.html" class="shop">جميع الوظائف</a></li>
+            <li class="m-5 cl-w curser-pointer"><a href="about.html" class="about"> عن الشركة</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="p-relative">
+      <div class="t1 animation-down"></div>
+    </div>
+  </div>
+  <!-- profile page componant -->
+  <!-- body -->
+  <!-- slideShow -->
+  <div class="profile-page ">
+    <div class="contain ">
+      <div class="row  border rounded mx-auto mt-5 p-2 shadow-lg bg-white ">
+        <h2 class="panel-heading text-center ">profile</h2>
+
+        <div class="col-md-4 text-center">
+          <img src="./image/worker2.jpg" class="img-fluid rounded" style="width: 180px;height:180px;object-fit: cover;">
+          <div>
+            <a href="profile-edit.php">
+              <button class="mx-auto m-1 btn-sm btn btn-primary">Edit</button>
+            </a>
+            <a href="profile-delete.php">
+              <button class="mx-auto m-1 btn-sm btn btn-warning text-white">Delete</button>
+            </a>
+            <a href="logout.php">
+              <button class="mx-auto m-1 btn-sm btn btn-info text-white">Logout</button>
+            </a>
+          </div>
+          <a href="newadd.php">
+            <button class="mx-auto m-1 btn-sm btn btn-info text-white">report</button>
+          </a>
+        </div>
+        <div class="col-md-8 tb">
+          <table class="m-0 table table-striped">
+            <tbody>
+              <tr>
+                <th><i class="bi bi-envelope"></i> Email</th>
+                <td>Mohamedmagdy000022@gmail.com</td>
+              </tr>
+              <tr>
+                <th><i class="bi bi-person-circle"></i>Name</th>
+                <td>Mohamed Magdy</td>
+              </tr>
+              <tr>
+                <th><i class="bi bi-person-square"></i>Phone</th>
+                <td>01094522385</td>
+              </tr>
+              <tr>
+                <th><i class="bi bi-gender-ambiguous"></i> Gender</th>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <th><i class="bi bi-gender-ambiguous"></i> Job</th>
+                <td>نجار</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row   border rounded mx-auto mt-5 p-2 shadow-lg bg-white bg-img">
+        <div class="panel panel-primary ">
+          <div class="p-relative">
+            <h2 class="panel-heading text-center ">Gallary</h2>
+            <button class="book curser-pointer add p-absolute add-gallary">add</button>
+          </div>
+          <div class="panel-body">
+            <div class="grid-wrapper">
+              <a href="" class="img-gallary curser-pointer">
+                <img src="./image/user/user1.jpg" alt="">
+                <div class="home-txt txt-center">
+                  <p class="m-0">دولاب</p>
+                  <div>
+                    <span>متوسط .السعر :90$-100$ا </span>
+                    <span><i class="fs-20 fa-sharp fa-solid fa-tag n-rotate"></i></span>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="img-gallary">
+                <img src="./image/user/user12.jpg" alt="">
+                <div class="home-txt txt-center">
+                  <p class="m-0">مكتب</p>
+                  <div>
+                    <span>متوسط .السعر :120$-150$ا </span>
+                    <span><i class="fs-20 fa-sharp fa-solid fa-tag n-rotate"></i></span>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="img-gallary">
+                <img src="./image/user/user3.jpeg" alt="">
+                <div class="home-txt txt-center">
+                  <p class="m-0">دولاب ابيض </p>
+                  <div>
+                    <span>متوسط .السعر :120$-180$ا </span>
+                    <span><i class="fs-20 fa-sharp fa-solid fa-tag n-rotate"></i></span>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="img-gallary">
+                <img src="./image/user/user14.jpg" alt="">
+                <div class="home-txt txt-center">
+                  <p class="m-0"> مكتب </p>
+                  <div>
+                    <span>متوسط .السعر :80$-100$ا </span>
+                    <span><i class="fs-20 fa-sharp fa-solid fa-tag n-rotate"></i></span>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="img-gallary">
+                <img src="./image/user/user4.jpeg" alt="">
+                <div class="home-txt txt-center">
+                  <p class="m-0">دولاب </p>
+                  <div>
+                    <span>متوسط .السعر :150$-200$ا </span>
+                    <span><i class="fs-20 fa-sharp fa-solid fa-tag n-rotate"></i></span>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="img-gallary">
+                <img src="./image/user/user5.jpeg" alt="">
+                <div class="home-txt txt-center">
+                  <p class="m-0">اعمال نقاشة </p>
+                  <div>
+                    <span>متوسط .السعر :120$-180$ا </span>
+                    <span><i class="fs-20 fa-sharp fa-solid fa-tag n-rotate"></i></span>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="img-gallary">
+                <img src="./image/user/user6.jpeg" alt="">
+                <div class="home-txt txt-center">
+                  <p class="m-0"> دولاب ابيض </p>
+                  <div>
+                    <span>متوسط .السعر :160$-250$ا </span>
+                    <span><i class="fs-20 fa-sharp fa-solid fa-tag n-rotate"></i></span>
+                  </div>
+                </div>
+              </a>
+              <a class="img-gallary">
+                <img src="./image/user/user12.jpg" alt="">
+                <div class="home-txt txt-center">
+                  <p class="m-0">مكتب عمل </p>
+                  <div>
+                    <span>متوسط .السعر :120$-180$ا </span>
+                    <span><i class="fs-20 fa-sharp fa-solid fa-tag n-rotate"></i></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row border rounded mx-auto mt-5 p-2 shadow-lg bg-white ">
+        <div class=" panel panel-primary">
+          <h2 class="panel-heading text-center">COMMENTS</h2>
+          <div class="testimonials txt-right">
+            <div class="profile-comment w-100">
+              <div class="name-user">
+                <p class="fw-b m-0">احمد عبد الرحمن</p>
+                <p class="m-0 ">ahmed_12354@gmail.com </p>
+              </div>
+
+              <div class="profile-img">
+                <img src="./image/user-1.jpeg" alt="">
+              </div>
+
+            </div>
+            <div class="rate-me rating w-100 curser-pointer">
+              <i class="fa-solid fa-star" num_star="1"></i>
+              <i class="fa-solid fa-star" num_star="2"></i>
+              <i class="fa-solid fa-star" num_star="3"></i>
+              <i class="fa-solid fa-star" num_star="4"></i>
+              <i class="fa-solid fa-star" num_star="5"></i>
+            </div>
+          </div>
+          <div class="add-comment d-flex">
+            <button class="book curser-pointer add">اضافة</button>
+            <input type="text" class="input-comment txt-right">
+          </div>
+          <div class="testimonial-box-container txt-right">
+            <div class="testimonial-box ">
+              <div class="box-top">
+                <div class="profile-comment">
+                  <div class="name-user">
+                    <p class="fw-b m-0">محمد مجدي</p>
+                    <p class="m-0 ">mohamed_magdy@gmail.com </p>
+                  </div>
+                  <div class="profile-img">
+                    <img src="./image/users/user-1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="reviews">
+                  <div class="rating w-rate" num-rate="2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="client-comments txt-right">
+                  <p>بجد عاش   </p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="box-top">
+                <div class="profile-comment">
+                  <div class="name-user">
+                    <p class="fw-b m-0">محمد ماهر</p>
+                    <p class="m-0 ">mohamed_maher@gmail.com </p>
+                  </div>
+                  <div class="profile-img">
+                    <img src="./image/users/user-2.jpg" alt="">
+                  </div>
+                </div>
+                <div class="reviews">
+                  <div class="rating w-rate" num-rate="2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="client-comments txt-right">
+                  <p>بجد تسلم ايدك شغلك جميل</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="box-top">
+                <div class="profile-comment">
+                  <div class="name-user">
+                    <p class="fw-b m-0">مني </p>
+                    <p class="m-0 ">mena_gamal@gmail.com </p>
+                  </div>
+                  <div class="profile-img">
+                    <img src="./image/users/user-3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="reviews">
+                  <div class="rating w-rate" num-rate="2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="client-comments txt-right">
+                  <p>اخر شياكة والله</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="box-top">
+                <div class="profile-comment">
+                  <div class="name-user">
+                    <p class="fw-b m-0">محمود احمد</p>
+                    <p class="m-0 ">mm@gmail.com </p>
+                  </div>
+                  <div class="profile-img">
+                    <img src="./image/users/user-4.jpg" alt="">
+                  </div>
+                </div>
+                <div class="reviews">
+                  <div class="rating w-rate" num-rate="2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="client-comments txt-right">
+                  <p>حلو</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="box-top">
+                <div class="profile-comment">
+                  <div class="name-user">
+                    <p class="fw-b m-0">علي جمال</p>
+                    <p class="m-0 ">ali_gmal@gmail.com </p>
+                  </div>
+                  <div class="profile-img">
+                    <img src="./image/users/user-5.jpg" alt="">
+                  </div>
+                </div>
+                <div class="reviews">
+                  <div class="rating w-rate" num-rate="2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="client-comments txt-right">
+                  <p>بجد شكرا جدا شغلك جميل</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="box-top">
+                <div class="profile-comment">
+                  <div class="name-user">
+                    <p class="fw-b m-0">محمود جمال</p>
+                    <p class="m-0 ">Mahmoud_756@gmail.com </p>
+                  </div>
+                  <div class="profile-img">
+                    <img src="./image/users/user-6.jpg" alt="">
+                  </div>
+                </div>
+                <div class="reviews">
+                  <div class="rating w-rate" num-rate="2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="client-comments txt-right">
+                  <p>ما شاء الله بجد شخص محترم وشغلك كويس</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- footer Componant -->
+
+  <footer class="bg-cldark ptb-80 mt-40">
+    <div class="contain">
+      <div class="d-grid foot">
+        <div class="foot-element">
+          <div class="ser fs-20">
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer fs-20">النجارة</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">النقاشة</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">الحدادة</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">السباكة</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">نطافة منزلية</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">كهرباء</a>
+
+          </div>
+        </div>
+        <div class="foot-element">
+          <div class="ser fs-20">
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer fs-20">الرئيسية</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">الخدمات</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">اتصل بنا</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">الصفحة الشخصية</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">عن الشركة</a>
+            <a href="#" class="cl-yellow p-5 bg-cldark curser-pointer">العروض</a>
+
+          </div>
+        </div>
+
+        <div class="foot-element txt-right">
+          <div class="logo"><img src="image/logo.png" alt=""></div>
+          <p class="mt-20 cl-white"> مشروع ويب يساعد العملاء في العثور على عمال يقدمون خدمات في مختلف مجالات الحياة
+            بأسعار مناسبة</p>
+          <h4 class="cl-white">تابعنا</h4>
+          <div class="icon-social">
+            <div class="cl-yellow p-5 bg-cldark curser-pointer flex-cencenter"><i class="fab fa-facebook-f"></i></div>
+            <div class="cl-yellow p-5 bg-cldark curser-pointer flex-cencenter"><i class="fab fa-twitter"></i></div>
+            <div class="cl-yellow p-5 bg-cldark curser-pointer flex-cencenter"><i class="fab fa-instagram"></i></div>
+            <div class="cl-yellow p-5 bg-cldark curser-pointer flex-cencenter"><i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- bootstrap js -->
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <!-- js -->
+  <script src="java/script.js"></script>
+</body>
+
+</html>
